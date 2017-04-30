@@ -1,7 +1,7 @@
 {
-    "name": "Boo",
-    "description": "A beautiful, clean and responsive theme for Ghost.",
-    "demo": "http://boo-demo.tenoku.com",
+    "name": "the Wellspring",
+    "description": "A beautiful, clean and responsive theme for Ghost based on Boo",
+    "demo": "https://thewellspring.life",
     "version": "0.11.1",
     "engines": {
         "ghost": ">=0.11.3 <1.0.0"
@@ -12,9 +12,9 @@
         "mobile": "assets/screenshot-mobile.png"
     },
     "author": {
-        "name": "Tenoku Software",
-        "email": "ivan@ivandigital.com",
-        "url": "http://tenoku.com"
+        "name": "Kyle Walters",
+        "email": "kyle.e.walters@icloud.com",
+        "url": "https://thewellspring.life"
     },
     "gpm": {
         "type": "theme",
@@ -36,8 +36,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/tenoku/boo"
+        "url": "https://github.com/kyleewalters/boo"
     },
-    "bugs": "https://github.com/tenoku/boo/issues",
-    "contributors": "https://github.com/tenoku/boo/graphs/contributors"
+    "bugs": "https://github.com/kyleewalters/boo/issues",
+    "contributors": "https://github.com/kyleewalters/boo/graphs/contributors"
 }
