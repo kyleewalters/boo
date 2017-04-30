@@ -1,51 +1,34 @@
 {
-  "name": "theWellspring",
-  "description": "A beautiful, clean and responsive theme for Ghost based on Boo",
-  "demo": "https://thewellspring.life",
-  "version": "0.11.1",
-  "engines": {
-    "ghost": ">=0.11.3 <1.0.0"
+  "name": "thewellspring",
+  "version": "1.0.0",
+  "description": "A Ghost theme - forked from Boo - built on Casper.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-zip": "^4.0.0"
   },
-  "license": "MIT",
-  "screenshots": {
-    "desktop": "assets/screenshot-desktop.png",
-    "mobile": "assets/screenshot-mobile.png"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": {
-    "name": "Kyle Walters",
-    "email": "kyle.e.walters@icloud.com",
-    "url": "https://thewellspring.life"
-  },
-  "gpm": {
-    "type": "theme",
-    "categories": [
-      "Minimalist",
-      "Clean",
-      "Minimal",
-      "Personal Blogs",
-      "Responsive"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleewalters/the-wellspring.git"
   },
   "keywords": [
     "ghost",
     "theme",
-    "boo",
-    "minimalist",
-    "clean",
-    "blog"
+    "minimal",
+    "wellspring"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kyleewalters/boo"
+  "author": "Kyle Walters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyleewalters/the-wellspring/issues"
   },
-  "bugs": "https://github.com/kyleewalters/boo/issues",
-  "contributors": "https://github.com/kyleewalters/boo/graphs/contributors",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.1.2",
-    "gulp-zip": "^4.0.0"
-  }
+  "homepage": "https://github.com/kyleewalters/the-wellspring#readme"
 }
